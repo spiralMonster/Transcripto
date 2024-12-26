@@ -2,7 +2,7 @@ import os
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-from Extracting_text_from_video.Extracting_audio_from_video.get_audio_url import GetAudioUrl
+from Youtube_Summarizer.Extracting_audio_from_video.get_audio_url import GetAudioUrl
 
 def GetAudioFromUrl(video_url,audio_file):
     audio_url=GetAudioUrl(video_url)

@@ -1,6 +1,6 @@
 import requests
 import os
-from Extracting_text_from_video.Extracting_audio_from_video.get_audio_from_url import GetAudioFromUrl
+from Youtube_Summarizer.Extracting_audio_from_video.get_audio_from_url import GetAudioFromUrl
 
 
 def preprocess_m3u(filepath):

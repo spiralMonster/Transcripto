@@ -1,7 +1,7 @@
 import os
-from Extracting_text_from_video.Extracting_text_from_audio.polling import Polling
-from Extracting_text_from_video.Extracting_text_from_audio.upload import Upload
-from Extracting_text_from_video.Extracting_text_from_audio.transcribe import Transcribe
+from Youtube_Summarizer.Extracting_text_from_audio.polling import Polling
+from Youtube_Summarizer.Extracting_text_from_audio.upload import Upload
+from Youtube_Summarizer.Extracting_text_from_audio.transcribe import Transcribe
 from dotenv import load_dotenv
 load_dotenv()
 

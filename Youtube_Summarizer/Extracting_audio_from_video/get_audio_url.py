@@ -1,4 +1,4 @@
-from Extracting_text_from_video.Extracting_audio_from_video.get_video_info import GetVideoInfo
+from Youtube_Summarizer.Extracting_audio_from_video.get_video_info import GetVideoInfo
 
 def GetAudioUrl(video_url):
     video_info=GetVideoInfo(video_url)

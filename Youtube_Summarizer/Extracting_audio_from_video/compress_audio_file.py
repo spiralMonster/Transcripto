@@ -1,6 +1,6 @@
 from pydub import AudioSegment
 import os
-from Extracting_text_from_video.Extracting_audio_from_video.converting_audio_to_mp3 import ConvertingAudioToMp3
+from Youtube_Summarizer.Extracting_audio_from_video.converting_audio_to_mp3 import ConvertingAudioToMp3
 
 def CompressAudioFile(video_url,speed_factor=1.5):
     audio_file=ConvertingAudioToMp3(video_url)
